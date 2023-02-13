@@ -23,7 +23,7 @@
       const username: Ref = ref('');
       const password: Ref = ref('');
   
-      function login() {  
+      function login() {
         // Traitement de la soumission du formulaire de connexion
         console.log(`Username: ${username.value} Password: ${password.value}`);
       }
