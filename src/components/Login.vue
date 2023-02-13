@@ -16,11 +16,12 @@
   
   <script lang="ts">
   import { defineComponent, ref } from 'vue';
+  import {Ref} from "@vue/reactivity";
   
   export default defineComponent({
     setup() {
-      const username = ref('');
-      const password = ref('');
+      const username: Ref = ref('');
+      const password: Ref = ref('');
   
       function login() {
         // Traitement de la soumission du formulaire de connexion
