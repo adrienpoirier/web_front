@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import Serveurs from './Serveurs.vue'
+
 </script>
 
 <template>
@@ -8,12 +9,8 @@ import Serveurs from './Serveurs.vue'
     <!-- partie serveur (gauche) -->
     <Serveurs />
 
-    <!-- partie channel vocal / ecrit (millieux)-->
-    <div class="bg-[#2f3136] w-60">
-
-    </div>
     <!-- partie chat (droite) -->
-    <div class="bg-[#36393f]">
+    <div class="bg-[#36393f] w-full">
 
     </div>
   </div>
@@ -23,7 +20,6 @@ import Serveurs from './Serveurs.vue'
 import { defineComponent, ref } from 'vue';
 export default defineComponent({
   setup() {
-
     return {
 
     };

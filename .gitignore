@@ -77,17 +77,17 @@ web_modules/
 .cache
 .parcel-cache
 
-# Next.js build output
+# Next.services build output
 .next
 out
 
-# Nuxt.js build / generate output
+# Nuxt.services build / generate output
 .nuxt
 dist
 
 # Gatsby files
 .cache/
-# Comment in the public line in if your project uses Gatsby and not Next.js
+# Comment in the public line in if your project uses Gatsby and not Next.services
 # https://nextjs.org/blog/next-9-1#public-directory-support
 # public
 
@@ -117,7 +117,7 @@ dist
 .pnp.*
 
 ### Vue template
-# gitignore template for Vue.js projects
+# gitignore template for Vue.services projects
 #
 # Recommended template: Node.gitignore
 
