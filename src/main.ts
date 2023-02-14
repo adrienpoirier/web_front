@@ -1,6 +1,7 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import './style.css'
+import {router} from "./routeur";
 
 /* import the fontawesome core */
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -14,5 +15,6 @@ import {faUser, faTag} from "@fortawesome/free-solid-svg-icons";
 library.add(faDiscord, faUser, faTag)
 
 createApp(App)
+    .use(router)
     .component('font-awesome-icon', FontAwesomeIcon)
     .mount('#app')

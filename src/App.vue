@@ -4,8 +4,8 @@ import Accueil from './components/Accueil.vue'
 </script>
 
 <template>
-<!--  <Login />-->
-  <Accueil />
+  <Login v-if="$route.name === 'login'" />
+  <Accueil v-else-if="$route.name === 'accueil'"/>
 </template>
 
 
