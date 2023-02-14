@@ -11,7 +11,7 @@ import Serveurs from './Serveurs.vue'
 
     <!-- partie chat (droite) -->
     <div class="bg-[#36393f] w-full">
-
+      <Messages />
     </div>
   </div>
 </template>
