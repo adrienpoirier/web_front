@@ -1,10 +1,11 @@
 <script setup lang="ts">
 import Login from './components/Login.vue'
+import Accueil from './components/Accueil.vue'
 </script>
 
 <template>
-  
-  <Login />
+<!--  <Login />-->
+  <Accueil />
 </template>
 
 
