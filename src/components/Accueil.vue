@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import Serveurs from './Serveurs.vue'
+import Serveurs from './Serveurs.vue';
+import Conversation from './Conversation.vue';
 
 </script>
 
@@ -11,7 +12,7 @@ import Serveurs from './Serveurs.vue'
 
     <!-- partie chat (droite) -->
     <div class="bg-[#36393f] w-full">
-      <Messages />
+      <Conversation />
     </div>
   </div>
 </template>
